@@ -330,6 +330,9 @@ body {
   top: 0;
   left: -10%;
   transition: all .5s; }
+  @media only screen and (orientation: landscape) {
+    .sidebar {
+      width: 100vw; } }
   .sidebar__brand {
     position: relative;
     top: 0;
