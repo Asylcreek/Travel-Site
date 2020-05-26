@@ -346,7 +346,7 @@ body {
     text-align: center; }
     @media only screen and (orientation: landscape) {
       .sidebar__brand {
-        margin: 2rem 0; } }
+        margin: 2rem 0 0; } }
   .sidebar.active {
     left: 0;
     opacity: 1;
