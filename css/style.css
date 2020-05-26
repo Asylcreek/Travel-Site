@@ -13,7 +13,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  overflow-x: hidden; }
   @media only screen and (max-width: 59.375em) {
     html {
       font-size: 56.25%; } }
@@ -30,6 +31,9 @@ body {
   color: #000;
   position: relative;
   overflow-x: hidden; }
+  @media only screen and (orientation: landscape) {
+    body {
+      overflow-x: hidden; } }
 
 .top-nav {
   list-style: none;
@@ -340,6 +344,9 @@ body {
     transform: translate(-50%, 0);
     margin: 10rem 0 2rem 0;
     text-align: center; }
+    @media only screen and (orientation: landscape) {
+      .sidebar__brand {
+        margin: 2rem 0; } }
   .sidebar.active {
     left: 0;
     opacity: 1;
